@@ -31,7 +31,7 @@ public class Amazon_flow {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(
 				By.name("email")));
 		driver.findElement(By.name("email")).sendKeys("+91xxxxxxxxxx"+Keys.ENTER);
-		driver.findElement(By.id("ap_password")).sendKeys("10042004"+Keys.ENTER);
+		driver.findElement(By.id("ap_password")).sendKeys("Password"+Keys.ENTER);
 		System.out.println(driver.findElement(By.className("a-alert-content")).getText());
 	}
 	}
