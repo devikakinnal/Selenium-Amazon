@@ -16,6 +16,7 @@ public class Dropdownflow {
 			WebElement staticDropdown=driver.findElement(By.class("css-1dbjc4n r-1habvwh r-1loqt21 r-1777fci r-1mi0q7o r-1yt7n81 r-m611by r-1otgn73"));
 			org.openqa.selenium.support.ui.Select dropdown =new Select(StaticDropdown);
 			dropdown.selectByIndex(3);
+		    System.out.println("pull request");
 			
 	}
 }
